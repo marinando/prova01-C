@@ -18,8 +18,7 @@ public class ProvaCMain {
 		Double[] numerosReais = new Double[3];
 		String conversaoVariavel = "";
 		Double inputDouble = 0.0;
-//		Double somaDosInputs = 0.0;
-
+	
 		for (int i = 0; i < numerosReais.length; i++) {
 			System.out.printf("\nLeitura de números reais. Insira o número %d\n", i + 1);
 			conversaoVariavel = input.nextLine();
@@ -42,8 +41,8 @@ public class ProvaCMain {
 			System.out.printf(" %s ", numerosReais[i]);
 		}
 		System.out.println("]");
-		
-		if(soma(numerosReais)> 0) {
+
+		if (soma(numerosReais) > 0) {
 			System.out.printf("\nSoma dos valores inseridos: %s\n", soma(numerosReais));
 		}
 
